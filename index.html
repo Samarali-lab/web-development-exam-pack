@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web Development Exam Pack</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1 class="site-title">Web Development Exam Pack</h1>
+      <p class="site-subtitle">10 Traditional Exams (HTML5, CSS, JavaScript, DOM) + Separate Answer Keys</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Syllabus coverage</h2>
+      <ul class="bullets">
+        <li>HTML5 tags, lists, images, hyperlinks (text/image/email), hotspots</li>
+        <li>Tables, forms, common controls, form validation</li>
+        <li>CSS selectors (id/class/element), pseudo-class/element, text/background/border/margin</li>
+        <li>Block vs inline, float/clear/overflow, positioning (absolute/fixed)</li>
+        <li>JavaScript basics, functions, arrays, loops/branches</li>
+        <li>DOM tree, document/window objects, attributes, style manipulation</li>
+        <li>Keyboard/mouse events, drag-and-drop</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>How to use</h2>
+      <ol class="bullets">
+        <li>Open an exam page and attempt it under time.</li>
+        <li>Check the separate answer key page for exam-style answers.</li>
+        <li>Use the search bar to find questions by keyword.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <div>
+          <h2>Exams</h2>
+          <p class="muted">Time: 3 hours · Marks: 80 · Pattern: MCQ + Short + Long + Practical</p>
+        </div>
+        <div class="search">
+          <label for="q">Search</label>
+          <input id="q" type="search" placeholder="Search: DOM, float, form, selector, drag..." />
+        </div>
+      </div>
+
+      <div id="examList" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>Static pack. Open <code>index.html</code> in a browser.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

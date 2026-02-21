@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exam 02 - Web Development Exam Pack</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="container">
+    <h1 class="site-title">Exam 02</h1>
+    <p class="site-subtitle">Time: 3 Hours · Marks: 80</p>
+    <p class="site-subtitle"><a href="../index.html">Home</a> · <a href="../answers/answer-02.html">Answer Key</a></p>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Section A — MCQs (20 × 1 = 20)</h2>
+    <ol>
+      <li>Which tag is best for a navigation block?
+        <ol type="A"><li>&lt;section&gt;</li><li>&lt;nav&gt;</li><li>&lt;aside&gt;</li><li>&lt;article&gt;</li></ol>
+      </li>
+      <li>To link external CSS:
+        <ol type="A"><li>&lt;css src&gt;</li><li>&lt;link rel="stylesheet" href="..."&gt;</li><li>&lt;style href&gt;</li><li>&lt;script css&gt;</li></ol>
+      </li>
+      <li>CSS has higher specificity:
+        <ol type="A"><li>element</li><li>class</li><li>id</li><li>universal</li></ol>
+      </li>
+      <li>Box model includes:
+        <ol type="A"><li>margin only</li><li>content+padding+border+margin</li><li>content only</li><li>border only</li></ol>
+      </li>
+      <li><code>overflow: hidden</code> is commonly used to:
+        <ol type="A"><li>enlarge font</li><li>clear floats/contain floats</li><li>rotate</li><li>animate</li></ol>
+      </li>
+      <li><code>position: fixed</code> is relative to:
+        <ol type="A"><li>parent</li><li>nearest relative ancestor</li><li>viewport</li><li>document head</li></ol>
+      </li>
+      <li>Correct image syntax:
+        <ol type="A"><li>&lt;img href&gt;</li><li>&lt;img src alt&gt;</li><li>&lt;img link&gt;</li><li>&lt;image src&gt;</li></ol>
+      </li>
+      <li><code>&lt;label for="x"&gt;</code> requires:
+        <ol type="A"><li>class x</li><li>name x</li><li>id x</li><li>type x</li></ol>
+      </li>
+      <li><code>&lt;input required&gt;</code> prevents submit when:
+        <ol type="A"><li>empty</li><li>long</li><li>clicked</li><li>colored</li></ol>
+      </li>
+      <li><code>pattern</code> attribute uses:
+        <ol type="A"><li>SQL</li><li>regex</li><li>XML</li><li>JSON</li></ol>
+      </li>
+      <li>Which event is keyboard?
+        <ol type="A"><li>click</li><li>mousemove</li><li>keydown</li><li>drag</li></ol>
+      </li>
+      <li><code>addEventListener</code> takes:
+        <ol type="A"><li>(selector, css)</li><li>(event, handler)</li><li>(id, value)</li><li>(node, html)</li></ol>
+      </li>
+      <li><code>querySelectorAll</code> returns:
+        <ol type="A"><li>single node</li><li>NodeList</li><li>string</li><li>boolean</li></ol>
+      </li>
+      <li><code>innerHTML</code> includes:
+        <ol type="A"><li>only text</li><li>HTML markup</li><li>CSS</li><li>attributes only</li></ol>
+      </li>
+      <li><code>createElement</code> is method of:
+        <ol type="A"><li>window</li><li>document</li><li>console</li><li>history</li></ol>
+      </li>
+      <li><code>ul</code> must contain:
+        <ol type="A"><li>tr</li><li>li</li><li>td</li><li>option</li></ol>
+      </li>
+      <li><code>:nth-child(2)</code> selects:
+        <ol type="A"><li>id 2</li><li>2nd child elements</li><li>2 classes</li><li>2 tags only</li></ol>
+      </li>
+      <li><code>::before</code> needs:
+        <ol type="A"><li>display</li><li>content</li><li>float</li><li>clear</li></ol>
+      </li>
+      <li>Drag-and-drop uses events like:
+        <ol type="A"><li>dragstart/drop</li><li>keyup/keydown</li><li>load/scroll</li><li>reset/submit</li></ol>
+      </li>
+      <li>Image hotspots use:
+        <ol type="A"><li>&lt;map&gt; and &lt;area&gt;</li><li>&lt;svg&gt; only</li><li>&lt;table&gt;</li><li>&lt;canvas&gt; only</li></ol>
+      </li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Section B — Short Answer (Any 8 × 3 = 24)</h2>
+    <ol>
+      <li>Explain image hotspot with tags and attributes.</li>
+      <li>Explain pseudo-class vs pseudo-element with examples.</li>
+      <li>Explain margin vs padding.</li>
+      <li>Explain two methods to clear floats.</li>
+      <li>Explain GET vs POST in forms.</li>
+      <li>Write registration form snippet with required validations.</li>
+      <li>Explain DOM node types: element node and text node.</li>
+      <li>How to change CSS style of an element using JS?</li>
+      <li>Write JS to read and set an attribute.</li>
+      <li>Explain window onload usage.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Section C — Long Answer (Any 3 × 8 = 24)</h2>
+    <ol>
+      <li>Design a navigation bar with hover effects and responsive behavior.</li>
+      <li>Build “Baidu-like registration page” structure + validations (explain approach).</li>
+      <li>Explain drag-and-drop recycle bin: events, dataTransfer, workflow.</li>
+      <li>Explain arrays, branch and loop structures in JS with examples.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Section D — Practical (Any 2 × 6 = 12)</h2>
+    <ol>
+      <li>Implement drag-and-drop: drag item into bin to delete.</li>
+      <li>Build questionnaire form (radio/checkbox/select) and validate required questions.</li>
+      <li>Create Olympic rings using HTML+CSS.</li>
+    </ol>
+  </section>
+</main>
+</body>
+</html>
