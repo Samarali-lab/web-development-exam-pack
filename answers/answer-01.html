@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Answer Key 01 - Web Development Exam Pack</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="container">
+    <h1 class="site-title">Answer Key 01</h1>
+    <p class="site-subtitle"><a href="../index.html">Home</a> · <a href="../exams/exam-01.html">Back to Exam</a></p>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Section A — MCQs</h2>
+    <p class="muted">Write only option letters in exam.</p>
+    <ol>
+      <li>B</li><li>B</li><li>C</li><li>B</li><li>B</li>
+      <li>C</li><li>B</li><li>C</li><li>C</li><li>B</li>
+      <li>C</li><li>B</li><li>B</li><li>B</li><li>C</li>
+      <li>C</li><li>B</li><li>B</li><li>C</li><li>C</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Section B — Short Answer (Key points)</h2>
+    <ol>
+      <li><b>Block:</b> new line, full width (div, p). <b>Inline:</b> same line, needed width (span, a).</li>
+      <li>Text: <code>&lt;a href="page.html"&gt;Open&lt;/a&gt;</code>; Image: <code>&lt;a href="page.html"&gt;&lt;img src="a.jpg" alt="A"&gt;&lt;/a&gt;</code>; Email: <code>&lt;a href="mailto:x@y.com"&gt;Mail&lt;/a&gt;</code>.</li>
+      <li><b>Id:</b> <code>#x</code> unique. <b>Class:</b> <code>.c</code> reusable. <b>Element:</b> <code>p</code> targets all p.</li>
+      <li>DOM = Document Object Model; HTML becomes a node tree (document→html→head/body→elements/text).</li>
+      <li><code>&lt;table&gt;&lt;caption&gt;...&lt;/caption&gt;&lt;tr&gt;&lt;th&gt;...&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code>.</li>
+      <li><code>:focus</code> focused element; <code>:active</code> while clicking; <code>:visited</code> visited link.</li>
+      <li>Float = element floats left/right and text wraps. Problems: parent height collapse; overlap/clearing issues.</li>
+      <li><code>action</code>=submit URL, <code>method</code>=GET/POST, <code>name</code>=field key, <code>required</code>=must fill.</li>
+      <li><code>==</code> type conversion; <code>===</code> strict (type+value).</li>
+      <li><code>alert</code> message; <code>confirm</code> OK/Cancel boolean; <code>prompt</code> input string/null.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Section C — Long Answer (Exam-style outlines)</h2>
+    <ol>
+      <li>Invitation letter: use background (body), container div/card, headings, paragraphs, list; CSS for font, color, spacing, alignment.</li>
+      <li>Positioning: static default; relative offsets but keeps space; absolute removed from flow relative to positioned ancestor; fixed relative to viewport.</li>
+      <li>Controls: text/password inputs; radio grouped by same name; checkbox multi; select+option; attributes: value, checked, selected, disabled, placeholder.</li>
+      <li>DOM: select (getElementById/querySelector), read/write attributes (getAttribute/setAttribute), change text (innerText), change style (element.style).</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Section D — Practical (Exam-style logic)</h2>
+    <ol>
+      <li>Navbar: flex/inline list; hover styles; media query to set <code>display:block</code> on links and stack items.</li>
+      <li>Select all: master checkbox toggles all; update master checked & indeterminate based on checked count.</li>
+      <li>Create li: <code>document.createElement("li")</code>, set text, <code>ul.appendChild(li)</code> on button click.</li>
+    </ol>
+  </section>
+</main>
+</body>
+</html>
